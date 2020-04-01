@@ -1,0 +1,1 @@
+I took Nivo slider frome here https://github.com/Codeinwp/Nivo-Slider-jQuery 
