@@ -4,8 +4,13 @@
 		<title>Fadelicious</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="style.css" rel="stylesheet" type="text/css" />
-	</head>
+        
+        <link rel="stylesheet" href="Nivo-Slider-master/themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="Nivo-Slider-master/themes/light/light.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="Nivo-Slider-master/themes/dark/dark.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="Nivo-Slider-master/themes/bar/bar.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="Nivo-Slider-master/nivo-slider.css" type="text/css" media="screen" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
 	<body>
 
         <!--Header-->
@@ -46,6 +51,23 @@
 		</div>	
 		
 
+<!--slider-->
+
+
+<div class="container_full">
+    <div class="fix container">
+        <div id="slider_wrapper">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                   <img src="img/cat.jpg" alt="cat image">
+                   <img src="img/cat1.jpg" alt="cat image">
+                   <img src="img/cat2.jpg" alt="cat image">
+                   <img src="img/cat3.jpg" alt="cat image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>		
 
 
 
@@ -64,6 +86,12 @@
 		
 		-->
 		
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+        <script type="text/javascript" src="Nivo-Slider-master/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+        </script>	
 	</body>
 </html>
