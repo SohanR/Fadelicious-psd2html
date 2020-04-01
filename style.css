@@ -3,7 +3,7 @@
 @import "style/column_wrapper.css";
 @import "style/about_us.css";
 @import "style/footer_top.css";
-
+@import "style/footer.css";
 
 *{
     margin:0;
