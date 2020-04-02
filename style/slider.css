@@ -1,0 +1,18 @@
+.slider_bg{
+    background: #e8e8e8;
+}
+
+#slider_wrapper{
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.theme-light.slider-wrapper{
+    border-radius: 5px;
+}
+
+.slider_w{
+    background: url(../img/slider_shadow.png) no-repeat;
+    background-position: bottom center;
+    padding-bottom: 10px;
+}
