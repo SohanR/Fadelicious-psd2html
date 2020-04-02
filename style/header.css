@@ -1,3 +1,8 @@
+#header{
+    padding: 20px 0;
+    overflow: hidden;
+}
+
 .header_bg{
     background: #e8e8e8;
 }
@@ -13,7 +18,8 @@
     background: #f5f5f5;
     border-radius: 5px;
     box-shadow: 1px 1px 2px #afafaf;
-    margin-top: 20px;
+    margin-top: 15px;
+    padding: 2px 0;
 }
 
 #header .menu ul{ 
@@ -23,6 +29,24 @@
 #header .menu ul li{
     float: left;
     padding: 5px 15px;
+    background: url(../img/menu_border.png) no-repeat;
+    background-position: center right;
+}
+
+#header .menu ul li:last-child{
+    background: none;
+}
+
+#header .menu ul li:last-child:hover{
+    background: url(../img/menu_hover1.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#header .menu ul li:hover{
+    background: url(../img/menu_hover.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 #header .menu ul li a{
