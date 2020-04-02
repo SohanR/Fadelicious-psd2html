@@ -1,0 +1,29 @@
+.column_wrapper_bg{
+    background: #e8e8e8;
+}
+
+.column_wrapper{
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.single_column{
+    text-align: center;
+    width: 185px;
+    float: left;
+    margin-right: 50px;
+}
+
+.single_column h2{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 25px;
+    color: #515151;
+}
+
+.col_first{
+    margin-left: 0px;
+}
+
+.col_last{
+    margin-right: 0px;
+}
