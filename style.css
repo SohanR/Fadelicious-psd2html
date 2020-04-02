@@ -4,6 +4,7 @@
 @import "style/about_us.css";
 @import "style/footer_top.css";
 @import "style/footer.css";
+@import "style/slider.css";
 
 *{
     margin:0;
