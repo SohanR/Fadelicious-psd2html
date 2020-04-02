@@ -1,0 +1,11 @@
+.slider_bottom_area_bg{
+    background: #e8e8e8;
+}
+
+.slider_bottom_area p{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: bold;
+    font-size: 33px;
+    color: #515151;
+    text-align: center;
+}
