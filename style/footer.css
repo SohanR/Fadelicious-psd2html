@@ -4,11 +4,22 @@
     padding-bottom: 10px;
 }
 
+#footer{
+    padding-top: 15px;
+}
+
 #footer .left_footer{
     float: left;
 }
 
 #footer .left_footer p{
+    color: #aaaaaa;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 14px;
+    margin: 5px;
+}
+
+#footer .left_footer p a{
     color: #aaaaaa;
     font-family: 'Baloo Thambi 2', cursive;
     font-size: 14px;
@@ -28,4 +39,7 @@
     float: left;
 }
 
-#footer .right_footer ul li a{}
+#footer .right_footer ul li a{
+    color: #aaaaaa;
+
+}
