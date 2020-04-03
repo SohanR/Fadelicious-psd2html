@@ -1,0 +1,31 @@
+.main_footer_bg{
+    background: url(../img/main_footer_bg.png) repeat-x;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+#footer .left_footer{
+    float: left;
+}
+
+#footer .left_footer p{
+    color: #aaaaaa;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 14px;
+    margin: 5px;
+}
+
+#footer .right_footer{
+    float: right;
+}
+
+#footer .right_footer ul{
+    list-style: none;
+}
+
+#footer .right_footer ul li{
+    padding: 0 5px;
+    float: left;
+}
+
+#footer .right_footer ul li a{}
