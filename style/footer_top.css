@@ -6,7 +6,7 @@
 
 .single_footer_area{
     float: left;
-    width: 340px;
+    width: 310px;
 }
 
 .single_footer_area h2{
@@ -33,4 +33,47 @@
     background: url(../img/footer_h2_bg2.png) no-repeat;
     background-position: left center;
     padding-left: 40px;
+}
+
+.single_footer_area ul{
+    list-style: none;
+}
+
+.single_footer_area ul li{
+    background: url(../img/footer_tick_mark.png) no-repeat;
+    background-position: left center;
+    padding: 10px 30px 0;
+}
+
+.single_footer_area ul li a{
+    color: #aaaaaa;
+}
+
+.twitter_section{
+    background: url(../img/twitter_background.png) no-repeat;
+    background-position: center center;
+    background-size: 100% 100%; 
+}
+
+.twitter_section p{
+    color: #aaaaaa;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 14px;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.twitter_section p a{
+    color: #6e996e;
+}
+
+.tw_im_btm{
+    float: right;
+    margin-top: -25px;
+    margin-right: 10px;
+}
+
+.area_middle_2{
+    padding-left: 45px;
+    padding-right: -25px;
 }
